@@ -1,4 +1,11 @@
 function getRandomBotMessage() {
+    const noteInput = document.getElementById("notas");
+
+    const noteText = noteInput.value.trim();
+
+    if (noteText === "") {
+        return;
+    }
    // setTimeout(() => {
         
     const messages = [

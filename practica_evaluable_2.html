@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="practica_evaluable_2.css">
+  <title>Helena García Caro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <div class="menu">
+      <button id="btn2" onclick="showTabById()">Mostrar</button>
+      <button id="btn1" onclick="showTabById()">Ocultar</button>
+    </div>
+    <div class="tab-content">
+      <div id="tab1" class="tab">
+        
+      </div>
+      <div class="tab" id="tab2">
+        <center>
+          <div class="container1">
+            <div class="box">
+            </div>
+
+            <textarea  id="notas" class="abc" placeholder="Escribe algo..." ></textarea>
+            <button class="theme-button" onclick="addNote(), getRandomBotMessage()">Enviar</button>
+          </div>
+        </center>
+        </div>
+    </div>
+  </div>
+
+
+  <script src="practica2.js"></script>
+</body>
+</html>

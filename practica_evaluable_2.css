@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "Klee One", serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    box-shadow:  0 4px 8px 5px rgba(0, 0, 0, 0.265);
+
+}
+
+.container1 {
+    background-color: #F8F8FF;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    position: static;
+    box-shadow:  0 4px 8px 5px rgba(0, 0, 0, 0.265);
+
+}
+
+.box {
+    background-color: #F8F8FF;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #F8F8FF;
+    border-radius: 5px;
+    position: static;
+    height: auto;
+/*box.scrollTop = box.scrollHeight; */
+
+}
+
+.menu {
+    background-color:  #85CEF0;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.menu button {
+    width: 50%;
+    background-color: #F8F8FF;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    padding: 5% 10%;
+    margin: 5%;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+span {
+    background-color: #d3f8f7;
+}
+
+.menu button:hover {
+    background-color: #E2E5E7;
+}
+
+.tab-content {
+    background-color: #f4f4f4;
+    width: 85%;
+}
+
+.tab {
+    display: none;
+    margin-left: 2%;
+}
+
+.tab.active {
+    display: block;
+}
+
+th {
+    background-color: #1abc9c;
+    color: white;
+}
+
+form {
+    background-color: white; 
+    padding: 2%;  
+    margin-right: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px grey;
+}
+
+form input, textarea {
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 0.2%;
+}
+
+.form-btn {
+    width: 10%;
+}
+
+.blue {
+    background-color: #EAFFD2;
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    border: 1px solid #cfff97;
+    /*align-self: flex-start;
+    display: inline-block;
+    min-height: 100vh;
+    align-self: flex-start;
+    overflow-y: auto; height: 100%;
+    */
+}
+
+.orange {
+    background-color: #E0F8FC;
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    border: 1px solid #aaf2ff;
+    align-self: flex-end;
+    
+}
+
+.xdxd{
+    display: none;
+}
+
+.ocultar{
+    display: none;
+}
+.mostrar{
+    display: inline;
+}
+
+.theme-button{
+    background-color: #F9DC6A;
+    border-radius: 2px;
+    border: 1px solid #ffda46;
+
+}
